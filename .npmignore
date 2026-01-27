@@ -1,0 +1,65 @@
+# Development files
+.git
+.gitignore
+.gitattributes
+.editorconfig
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+circle.yml
+appveyor.yml
+
+# Testing
+test/
+tests/
+*.test.js
+*.spec.js
+coverage/
+.nyc_output/
+jest.config.js
+.eslintrc*
+.prettierrc*
+
+# Documentation (if you want to exclude)
+docs/
+*.md
+!README.md
+
+# Build files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Editor files
+*.sublime-project
+*.sublime-workspace
+
+# Optional: Examples (uncomment if you have examples folder)
+# examples/
+
+# Optional: Development scripts
+# scripts/

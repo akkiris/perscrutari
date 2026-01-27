@@ -18,8 +18,15 @@
     "duplicate-detection",
     "file-size"
   ],
-  "author": "",
-  "license": "MIT",
+  "author": "akkiris@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akkiris/perscrutari.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akkiris/perscrutari/issues"
+  },
+  "homepage": "https://github.com/akkiris/perscrutari#readme",
   "dependencies": {
     "commander": "^12.1.0",
     "cli-table3": "^0.6.5",
